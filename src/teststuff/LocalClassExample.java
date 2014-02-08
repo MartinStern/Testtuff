@@ -13,6 +13,11 @@ public class LocalClassExample {
 
     static String regularExpression = "[^0-9]";
 
+    /**
+     *
+     * @param phoneNumber1
+     * @param phoneNumber2
+     */
     public static void validatePhoneNumber(
             String phoneNumber1, String phoneNumber2) {
 
@@ -64,6 +69,10 @@ public class LocalClassExample {
 
     }
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String... args) {
         validatePhoneNumber("603-555-0123", "555-0123");
     }

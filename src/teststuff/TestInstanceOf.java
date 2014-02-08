@@ -11,6 +11,10 @@ package teststuff;
  */
 public class TestInstanceOf {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         Human thing = new Human("Hans", 11, 11, 11);

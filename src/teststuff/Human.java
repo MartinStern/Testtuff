@@ -16,6 +16,13 @@ public class Human implements Cloneable {
     private int weight;
     private int height;
 
+    /**
+     *
+     * @param name
+     * @param age
+     * @param weight
+     * @param height
+     */
     public Human(String name, int age, int weight, int height) {
         this.name = name;
         this.age = age;

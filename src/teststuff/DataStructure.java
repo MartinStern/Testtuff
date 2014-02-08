@@ -16,6 +16,9 @@ public class DataStructure {
     private int[] arrayOfInts = new int[SIZE];
     private String x = "bla bla";
 
+    /**
+     *
+     */
     public DataStructure() {
         // fill the array with ascending integer values
         for (int i = 0; i < SIZE; i++) {
@@ -23,6 +26,9 @@ public class DataStructure {
         }
     }
 
+    /**
+     *
+     */
     public void printEven() {
         // print out values of even indices of the array
         InnerEvenIterator iterator = this.new InnerEvenIterator();
@@ -52,6 +58,10 @@ public class DataStructure {
         }
     }
 
+    /**
+     *
+     * @param s
+     */
     public static void main(String s[]) {
         // fill the array with integer values and print out only
         // values of even indices

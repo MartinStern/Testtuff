@@ -11,10 +11,21 @@ package teststuff;
  */
 public class Women extends Human {
 
+    /**
+     *
+     * @param name
+     * @param age
+     * @param weight
+     * @param height
+     */
     public Women(String name, int age, int weight, int height) {
         super(name, age, weight, height);
     }
 
+    /**
+     *
+     * @return
+     */
     public boolean hasPossibleMenstruation() {
         if (getAge() > 15) {
             return true;

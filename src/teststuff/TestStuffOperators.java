@@ -11,6 +11,10 @@ package teststuff;
  */
 public class TestStuffOperators {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 //
 //        int i = 10;

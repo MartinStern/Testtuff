@@ -11,6 +11,10 @@ package teststuff;
  */
 public class TestHideVsOverride {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         HideVsOverrideBase ob = new HideVsOverrideBase();

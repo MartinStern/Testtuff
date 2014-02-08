@@ -11,6 +11,10 @@ package teststuff;
  */
 public class OuterClassTest {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         OuterClass oc = new OuterClass("A", "B");
         OuterClass.InnerClass ocic1 = oc.new InnerClass("X");

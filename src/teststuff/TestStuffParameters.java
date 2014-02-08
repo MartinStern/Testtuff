@@ -15,6 +15,10 @@ public class TestStuffParameters {
 
     static String myFamilyName;
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         test("BlaBla", 1, 2, 3, 4, 5, 6);
@@ -158,6 +162,10 @@ public class TestStuffParameters {
         System.out.println("bd = " + bd);
     }
 
+    /**
+     *
+     * @param man
+     */
     public static void testWithObject1(Man man) {
         man.setAge(99);
     }

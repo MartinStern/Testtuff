@@ -14,6 +14,10 @@ import java.util.logging.Logger;
  */
 public class TestStuffWithClass {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         Human p1 = new Human("Joe", 56, 80, 182);

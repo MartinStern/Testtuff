@@ -14,6 +14,10 @@ import java.util.logging.Logger;
  */
 public class TestWithFinalize {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         ClassWithFinalize cwf = new ClassWithFinalize("smörebröd");
         System.out.println("SimpleName: " + cwf.getClass().getSimpleName());

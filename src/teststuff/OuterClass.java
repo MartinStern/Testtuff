@@ -14,12 +14,20 @@ public class OuterClass {
     private String x;
     private String y;
 
+    /**
+     *
+     * @param x
+     * @param y
+     */
     public OuterClass(String x, String y) {
         this.x = x;
         this.y = y;
 
     }
 
+    /**
+     *
+     */
     public void doSomething() {
 
     }

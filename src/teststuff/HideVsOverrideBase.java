@@ -11,10 +11,16 @@ package teststuff;
  */
 public class HideVsOverrideBase {
 
+    /**
+     *
+     */
     public static void speekStatic() {
         System.out.println("speekStatic: I am the Base");
     }
 
+    /**
+     *
+     */
     public void speek() {
         System.out.println("speek: I am the Base");
     }

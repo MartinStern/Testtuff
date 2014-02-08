@@ -11,6 +11,10 @@ package teststuff;
  */
 public class TestStuffMainForStaticTest {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         System.out.println("Wieviel Instanzen von TestStaticInit gibt es? Anzahl: " + TestStaticInit.getCounterOfInstances());

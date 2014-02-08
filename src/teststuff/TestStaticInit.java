@@ -11,6 +11,9 @@ package teststuff;
  */
 public class TestStaticInit {
 
+    /**
+     *
+     */
     public static final int MAX_INSTANCES = 5;
     //this is a class variable
     private static int counterOfInstances;
@@ -41,6 +44,10 @@ public class TestStaticInit {
         counterOfInstances++;
     }
 
+    /**
+     *
+     * @return
+     */
     public static TestStaticInit getTestStaticInitInstance() {
         if (getCounterOfInstances() < MAX_INSTANCES) {
             return new TestStaticInit();
