@@ -28,7 +28,7 @@ public class TestStuffMainForStaticTest {
         System.out.println("Wieviel Instanzen von TestStaticInit gibt es? Anzahl: " + TestStaticInit.getCounterOfInstances());
 
         // man kann die Anzahl Instanzen auch ueber eine Instanz auslesen, was aber kein guter Programmierstil ist
-        System.out.println("Wieviel Instanzen von TestStaticInit gibt es? Ausgelesen aus der Instanz test2, Anzahl: " + test2.getCounterOfInstances());
+        System.out.println("Wieviel Instanzen von TestStaticInit gibt es? Ausgelesen aus der Instanz test2, Anzahl: " + TestStaticInit.getCounterOfInstances());
 
     }
 

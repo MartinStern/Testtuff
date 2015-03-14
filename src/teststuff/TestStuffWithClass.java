@@ -31,6 +31,10 @@ public class TestStuffWithClass {
             Logger.getLogger(TestStuffWithClass.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+        System.out.println("p1: " + p1);
+        System.out.println("p2: " + p2);
+        System.out.println("p3: " + p3);
+        System.out.println("p4: " + p4);
         System.out.println("Hash of p1: " + p1.hashCode());
         System.out.println("Der Haswert von p2 und p3 ist der selbe, da es sich ja auch um das selbe Objekt handelt!");
         System.out.println("Hash of p2: " + p2.hashCode());

@@ -91,12 +91,13 @@ public class Human implements Cloneable {
         this.name = name;
     }
 
+    @Override
     public String toString() {
-        StringBuffer sb = new StringBuffer();
-        sb.append("Name: " + name);
-        sb.append(", Alter: " + age);
-        sb.append(", Gewicht: " + weight);
-        sb.append(", Groesse: " + height);
+        StringBuilder sb = new StringBuilder();
+        sb.append("Name: ").append(name);
+        sb.append(", Alter: ").append(age);
+        sb.append(", Gewicht: ").append(weight);
+        sb.append(", Groesse: ").append(height);
 
         return sb.toString();
     }
